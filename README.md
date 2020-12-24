@@ -16,7 +16,7 @@ In this repository, I will be sharing my solutions to the exercise challenges pr
 :ballot_box_with_check: 10  Sets and Maps<br/>
 :ballot_box_with_check: 11  Destructuring and Spreading<br/>
 12  Regular Expressions<br/>
-13  Console Object Methods<br/>
+:ballot_box_with_check: 13  Console Object Methods<br/>
 14  Error Handling<br/>
 15  Classes<br/>
 16  JSON<br/>
