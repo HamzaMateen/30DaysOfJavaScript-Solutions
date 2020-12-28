@@ -20,7 +20,7 @@ In this repository, I will be sharing my solutions to the exercise challenges pr
 :ballot_box_with_check: 14  Error Handling<br/>
 :ballot_box_with_check: 15  Classes<br/>
 :ballot_box_with_check: 16  JSON<br/>
-17  Web Storages<br/>
+:ballot_box_with_check: 17  Web Storages<br/>
 18  Promises<br/>
 19  Closure<br/>
 20  Writing Clean Code<br/>
