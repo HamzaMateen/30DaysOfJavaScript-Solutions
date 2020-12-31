@@ -22,7 +22,7 @@ In this repository, I will be sharing my solutions to the exercise challenges pr
 :ballot_box_with_check: 16  JSON<br/>
 :ballot_box_with_check: 17  Web Storages<br/>
 18  Promises<br/>
-19  Closure<br/>
+:ballot_box_with_check: 19  Closure<br/>
 20  Writing Clean Code<br/>
 21  DOM <br/>
 22  Manipulating DOM Object<br/>
