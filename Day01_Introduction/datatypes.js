@@ -8,10 +8,10 @@ var unknown = undefined;
 var empty = null;
 
 // checking the datatypes
-console.log("Name's datatype: ", typeof(name));
-console.log("condition's datatype: ", typeof(condition));
-console.log("unknown's datatype: ", typeof(unknown));
-console.log("empty's datatype: ", typeof(empty));
+console.log("Name's datatype: ", typeof name);
+console.log("condition's datatype: ", typeof condition);
+console.log("unknown's datatype: ", typeof unknown);
+console.log("empty's datatype: ", typeof empty);
 
 // 10. declare two vars myAge and yourAge assign them values;
 let myAge = 17;
