@@ -25,8 +25,8 @@ In this repository, I will be sharing my solutions to the exercise challenges pr
 :ballot_box_with_check: 19  Closure<br/>
 :ballot_box_with_check: 20  Writing Clean Code<br/>
 :ballot_box_with_check: 21  DOM <br/>
-22  Manipulating DOM Object<br/>
-23  Event Listeners
+:ballot_box_with_check: 22  Manipulating DOM Object<br/>
+:ballot_box_with_check: 23  Event Listeners
 <input type="checkbox"></input> 24  Mini Project: Solar System<br/>
 <input type="checkbox"></input> 25  Mini Project: World Countries Data Visualization 1<br/>
 <input type="checkbox"></input> 26  Mini Project: World Countries Data Visualization

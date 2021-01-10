@@ -1,0 +1,52 @@
+/*Globals*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+.wrapper #response, #input {
+  margin-left: 23%;
+  font-weight: 300;
+  color: red;
+  font-size: 0.6em;
+  margin-bottom: 1px;
+}
+
+#input #button_1 {
+  color: #fff;
+  background-color: #73a657;
+  margin-left: 2px;
+  font-weight: 500;
+  padding: 2px;
+  border: 1px #73a657 solid;
+  border-radius: 4px;
+}
+
+#input input {
+  border: 2px #73a657 solid;
+  border-radius: 4px;
+  padding: 1px;
+}
+
+#input #bar {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  padding-left: 5px;
+  margin-right: 2px;
+}
+
+#input #button_1:hover {
+  color: #73a657;
+  background-color: #fff;
+}

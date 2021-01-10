@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>30 Days of JavaScript: Day 3</title>
+</head>
+
+<body>
+      
+      <script type="text/javascript" charset="utf-8">
+         document.body.style.fontFamily = 'ariel';
+        // let's do this     
+        let div = document.createElement('div');
+        div.className = 'wrapper';
+        
+        let h2 = document.createElement('h2');
+        h2.className = 'heading';
+        h2.innerHTML = 'You pressed <strong>. . .</strong>';
+        
+        // add em   
+        div.appendChild(h2)
+        document.body.appendChild(div);
+   
+        // get the button     
+        let button = document.querySelector('strong');
+        button.style.color = 'green';
+        button.style.fontWeight = '400';
+        
+        // add the other messasge 
+        let message = document.createElement('h4');
+        message.className = 'heading';
+        message.textContent = 'Press any key to start';
+        
+        div.appendChild(message);
+        
+        // styling    
+        let headings = document.querySelectorAll('.heading');
+        
+        headings.forEach(x => {
+          x.style.textAlign = 'center';
+          
+          x.style.padding = '5px';
+          x.style.fontWeight = '385';
+          x.style.margin = 'auto';
+        })
+        
+        h2.style.marginTop = '50%';
+        h2.style.width = '60%';
+        h2.style.border = '2px #d8e1e0 solid';
+        
+        message.style.marginTop = '2px';
+        message.style.width = '50%';
+        
+        
+        // let the fun begin     
+        // generate color    
+        let generateColor = () => {
+        let alphanums = '0123456789abcdef';
+        
+        let colorArr = [];
+        for(let i=0; i<6; i++) {
+          let index = Math.floor(Math.random() * 15);
+          colorArr.push(alphanums[index]);
+        }
+        return '#' + colorArr.join('');
+        }
+      
+        // listen to an event 
+        document.addEventListener('keypress', (key) => {
+          let color = generateColor();
+          let keyPresssed = key.key == ' ' ? 
+          'space': key.key;
+         
+          button.textContent = `${keyPresssed}`;;
+          button.style.color = color;
+          message.textContent = `${key.keyCode}`;
+         
+          
+          message.style.width = '10%';
+          message.style.border = `3px ${color} solid`;
+          message.style.lineHeight = '30px';
+          
+          
+        })
+      </script>
+</body>
+
+</html>
