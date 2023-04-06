@@ -10,3 +10,24 @@ let tenMostFrequentWords = (text, range=10) => {
 }
 tenMostFrequentWords(paragraph).forEach(x => console.log(x));
 
+//another method
+words=[]
+total=[]
+
+function tenMostFrequentWords(paragraph){
+    var replaced=paragraph.replace(/\./g,'');
+    var arrOfPara = replaced.toString().split(' ');
+
+    for(let i=0;i<arrOfPara.length;i++){
+        if(!words.includes(arrOfPara[i])){
+            words.push(arrOfPara[i]);
+            let regExp = new RegExp(arrOfPara[i],'g')
+            let match = paragraph.match(regExp);
+            total.push({word:arrOfPara[i],count:match.length})
+        }
+    }
+    return total;
+}
+
+console.log(tenMostFrequentWords(paragraph));
+
