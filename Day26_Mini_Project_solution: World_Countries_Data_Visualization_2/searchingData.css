@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(160, 104, 160);
+}
+
+.top{
+    border: 1px solid black;
+    height: 25em;
+    background-image: url('./globe-2.jpg');
+    background-size: 100%;
+    background-position-y: 55%;
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding-top: 5em;
+    min-width: 597px;
+}
+
+.top h1{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+.top p{
+    color: white;
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: 1000;
+}
+
+.btn{
+    color: white;
+    border-color: rgb(152, 135, 152);
+    background-color: purple;
+    height: 3rem;
+    margin-top: 1.5em;
+
+}
+
+.btn1{
+    width: 15%;
+}
+
+.btn2{
+    width: 25%;
+}
+
+.rand{
+    width: 15%;
+}
+
+.btn4{
+    width: 15%;
+}
+
+.btn-class{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.text-class{
+    height: 5rem;
+    padding: 1rem;
+}
+
+.text-box{
+    width: 35%;
+    height: 2rem;
+    font-size: 1.5rem;
+
+}
+
+ 
+
+
+.bottom{
+    
+    height: fit-content;
+    padding-left: 3em;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));  
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.clicked{
+    background-color: rgb(223, 99, 223);
+}
+
+
+.card{
+    border: 2px solid black;
+    height: 10rem;
+    width: 10rem;
+    background-image: linear-gradient(to bottom, rgba(200, 200, 200, 0.2),black),url('./map_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
