@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+}
+    
+.container{
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    font-size: 30px;
+    height: 37rem;
+    width: 90%;
+    background: linear-gradient(45deg, pink, yellow);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.btn1{
+    width: 6em;
+    height: 3em;
+    transform: translate(60em, 0px);
+}
+
+.class1{
+    border :1px solid black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.even{
+    background-color: green;
+}
+
+.odd{
+    background-color: yellow;
+}
+
+.prime{
+    background-color: red;
+}
