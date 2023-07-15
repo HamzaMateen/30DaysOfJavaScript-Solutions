@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url(Cakecafe.ttf);
+}
+
+@font-face{
+    font-family: myfont2;
+    src: url(CheekyRabbit.ttf);
+}
+
+body{
+    /* background: linear-gradient(45deg, rgba(200,12,23,0.5), rgba(150,50,50,0.7)); */
+    padding: 0px 7em;
+}
+
+header{
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    font-size: 4em;
+    font-family:myfont1;
+    height: 2.5em;
+    padding: 0.5em 0px;
+    letter-spacing: 1.5rem;
+    /* min-width: 1065px; */
+    /* margin-bottom: 2%; */
+}
+
+@media (max-width: 1065px){
+    header{
+    font-size: 120%;
+    margin-bottom: 15%;
+    }
+}
+
+
+.animate1{
+    position: relative;
+    font-size: 3em;
+    height: 2em;
+    padding: 0.25em;
+    background-color: rgba(151, 127, 127, 0.7);
+    overflow: hidden;
+}
+
+.animate1-text{
+    font-family: myfont2;
+    position: absolute;
+    left: -4.5em;
+    opacity: 0;
+}
+
+
+.ani1{
+    opacity: 1;
+    transform: translate(5em, 0px);
+    transition: 0.4s;
+}
+
+
+p{
+    font-size: 1.5em;
+    /* height: 5em; */
+    height: fit-content;
+    /* min-height: fit-content; */
+    padding: 0.75em 0.75em;
+    /* border: 1px solid black; */
+}
+
+.boldit{
+    color: black;
+    font-weight: bolder;
+}
+
+.card-list{
+    margin-top: 2%;
+    height: 10em;
+    display: grid;
+    padding: 0px 2em;
+    grid-template-columns: repeat(auto-fill, minmax(20%,1fr)); 
+    column-gap: 9em;
+    /* border: 1px solid black; */
+}
+
+.card{
+    min-height: 2em;
+    font-size: 1.5em;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 119, 109);
+}
+
+.card:hover{
+    background-color: rgba(175, 157, 157, 0.4);
+    transform: scale(1.1);
+}
+
+.animate2{
+    font-size: 2.5em;
+    margin-top: 1em;
+    height: 2.1em;
+}
+
+@media (max-width:1020px ) {
+  
+    .card-list{
+        grid-template-columns: repeat(auto-fill, minmax(40%,1fr)); 
+        margin-top: 6%;
+        height: fit-content;
+        row-gap: 3%;
+        
+    }
+
+}
+
+@media (max-width: 781px){
+
+    p{
+        font-size: 1.25em;
+        margin-bottom: 10%;
+    }
+
+}
